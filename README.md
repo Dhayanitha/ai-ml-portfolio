@@ -21,13 +21,16 @@ GitHub: https://github.com/Dhayanitha/cnn-image-classification
 
 ---
 
-### 2. NLP Resume Screening System
+### 2. AI Resume Screening System
 
-GitHub: (add link)
+GitHub: https://github.com/Dhayanitha/AI-Resume-Screening-System
 
-* Resume parsing using NLP techniques
-* Skill extraction and matching with job descriptions
-* Designed for automated candidate screening
+* Developed an end-to-end AI-powered resume ranking system using NLP and Machine Learning
+* Implemented TF-IDF, Sentence Transformer embeddings, and FAISS similarity search for candidate matching
+* Built a hybrid scoring engine combining semantic similarity, keyword matching, and skill-based evaluation
+* Generated explainable candidate rankings with score breakdowns and AI-generated summaries
+* Designed a FastAPI backend and Streamlit frontend for interactive resume screening
+* Utilized SQLite for storing candidate and ranking information
 
 ---
 
