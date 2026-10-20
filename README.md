@@ -34,16 +34,31 @@ GitHub: https://github.com/Dhayanitha/AI-Resume-Screening-System
 
 ---
 
-### 3. Superstore Data Analysis
+### 3. ClinRAG — Evidence-Grounded Clinical Knowledge Retrieval System
+
+**GitHub:** [ClinRAG Repository](https://github.com/Dhayanitha/clinrag)  
+**Live Demo:** [Try ClinRAG](https://clinrag-8qwqrfw6vynjv7dev9xecm.streamlit.app/)
+
+- Built a Retrieval-Augmented Generation (RAG) system for answering clinical knowledge questions using the MedQuAD dataset.
+- Implemented dense retrieval using FAISS and lexical retrieval using BM25.
+- Combined retrieval results using Reciprocal Rank Fusion (RRF) and reranked documents with a Cross-Encoder.
+- Integrated Google Gemini for answer generation, with Ollama as a local alternative.
+- Developed Streamlit and FastAPI interfaces for interacting with the system.
+- Evaluated retrieval performance using HitRate@5 and Mean Reciprocal Rank (MRR).
+- Achieved **97.14% HitRate@5** and **0.8176 MRR** on a 35-query development evaluation set.
+
+*Note: Evaluation results are preliminary and are not an independent test of clinical accuracy.*
+
+---
+
+### 4. Superstore Data Analysis
 
 GitHub: (add link)
 
 * Performed exploratory data analysis on sales dataset
 * Identified business insights and trends
 * Used Pandas, Matplotlib, and visualization tools
-
----
-
+* 
 ## Skills
 
 **Programming**
